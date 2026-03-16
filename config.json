@@ -5,14 +5,35 @@
         "time": ["07:30","9:30"],
         "roomid":"13472",
         "seatid":["527"],
-        "daysofweek": [ "Tuesday"]
+        "daysofweek": [ "Monday"]
     },
         {"username": "15003818263",
         "password": "qwqsqwq.1",
         "time": ["14:30","15:30"],
         "roomid":"13472",
         "seatid":["527"],
-        "daysofweek": [ "Tuesday"]
+        "daysofweek": [ "Monday"]
+    },
+        {"username": "15003818263",
+        "password": "qwqsqwq.1",
+        "time": ["09:30","22:30"],
+        "roomid":"13472",
+        "seatid":["527"],
+        "daysofweek": ["Tuesday"]
+    },
+        {"username": "15003818263",
+        "password": "qwqsqwq.1",
+        "time": ["07:30","22:30"],
+        "roomid":"13472",
+        "seatid":["527"],
+        "daysofweek": ["Wednesday","Thursday","Friday","Saturday"]
+    },
+        {"username": "15003818263",
+        "password": "qwqsqwq.1",
+        "time": ["11:30","22:30"],
+        "roomid":"13472",
+        "seatid":["527"],
+        "daysofweek": ["Sunday"]
     }
     ]
 
