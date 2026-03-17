@@ -81,14 +81,14 @@ def main(users, action=False):
         1 for d in users if current_dayofweek in d.get("daysofweek")
     )
 
-    # ===================== 【我加的：等待到 19:59:58 再开始抢，避免提前狂刷】 =====================
+ 
     target_hour = 19
     target_minute = 59
     target_second = 58
     target_wait=0
     logging.info(f"等待到 {target_hour:02d}:{target_minute:02d}:{target_second:02d} 再开始抢座...")
 
-    while False:
+    while True:
         now_ts = time.time() + (8 * 3600 if action else 0)
         now = time.localtime(now_ts)
         if (now.tm_hour == target_hour and
@@ -101,8 +101,7 @@ def main(users, action=False):
             logging.info("wait ")
 
     logging.info("时间到！开始抢座！")
-    # ==========================================================================================
-
+    
     while current_time < ENDTIME:
         attempt_times += 1
         # try:
