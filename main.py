@@ -97,8 +97,8 @@ def main(users, action=False):
             break
         time.sleep(0.5)
         target_wait=target_wait+1
-        if(target_wait%10=0)
-            logging.infor("wait ")
+        if(target_wait%10==0)
+            logging.info("wait ")
 
     logging.info("时间到！开始抢座！")
     # ==========================================================================================
